@@ -1,0 +1,26 @@
+{
+  "name": "claude-query-history",
+  "version": "1.0.0",
+  "description": "Search Claude Code session logs for past questions, findings, and decisions",
+  "main": "index.js",
+  "bin": {
+    "claude-query-history": "./index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "session-history",
+    "search",
+    "cli"
+  ],
+  "author": "Allen Morgan",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AltienAllen/ClaudeQueryHistory.git"
+  }
+}
